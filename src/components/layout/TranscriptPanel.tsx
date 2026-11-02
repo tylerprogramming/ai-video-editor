@@ -251,7 +251,7 @@ export function TranscriptPanel(): React.ReactElement {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          model: 'gpt-5-mini',
+          model: 'gpt-5.4-mini',
           response_format: { type: 'json_object' },
           messages: [
             {
